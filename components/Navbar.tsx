@@ -20,23 +20,18 @@ export default function Navbar() {
         className="mx-auto flex w-full max-w-[1440px] items-center justify-between px-6 py-8 lg:px-14"
       >
         {/* Left: logo + name */}
-        <Link href="/" className="flex shrink-0 items-end gap-2 leading-none">
+        <Link href="/" className="flex shrink-0 items-end gap-[7px] leading-none">
           <Image
             src="/hero-asset/Vector.png"
             alt="ByteSpace logo"
             width={29}
             height={32}
             priority
-            className="mb-[3px] block h-[27px] w-auto"
+            className="mb-[1px] block h-[28px] w-auto"
           />
-          <Image
-            src="/hero-asset/ByteSpace.png"
-            alt="ByteSpace"
-            width={133}
-            height={21}
-            priority
-            className="block h-5 w-auto brightness-0 invert"
-          />
+          <span className="leading-none text-[22px] font-extrabold tracking-tight text-white">
+            ByteSpace
+          </span>
         </Link>
 
         {/* Middle: links */}
