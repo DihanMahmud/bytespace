@@ -150,7 +150,7 @@ function CourseCard({
       {/* Body */}
       <div className="flex flex-1 flex-col px-2 pt-5 pb-2">
         <div className="flex items-start justify-between gap-3">
-          <h3 className="truncate text-[18px] leading-snug font-bold tracking-tight text-gray-950">
+          <h3 className="truncate text-[18px] leading-snug font-semibold tracking-tight text-gray-950">
             {title}
           </h3>
           <span className="flex shrink-0 items-center gap-1 pt-0.5 text-[15px] font-medium text-gray-800">
@@ -212,7 +212,7 @@ export default function CoursesSection() {
     <div className="bg-white py-5">
       <section className="mx-auto w-full max-w-[1440px] px-8 pt-24 pb-16 md:px-12 lg:px-20">
         <div className="px-2 text-center md:px-6">
-          <h2 className="mx-auto text-[32px] leading-[1.15] font-bold tracking-tight text-[#040819] md:text-[44px]">
+          <h2 className="mx-auto text-[32px] leading-[1.15] font-semibold tracking-tight text-[#040819] md:text-[44px]">
             Discover Your Passion,
             <br />
             Build Your Skills
@@ -253,7 +253,7 @@ export default function CoursesSection() {
       {/*  Explore  */}
       <section className="mx-auto w-full max-w-[1440px] px-8 pt-8 pb-24 md:px-12 lg:px-20">
         <div className="text-center">
-          <h2 className="mx-auto text-[26px] leading-snug font-bold tracking-tight text-[#040819] md:text-[32px]">
+          <h2 className="mx-auto text-[26px] leading-snug font-semibold tracking-tight text-[#040819] md:text-[32px]">
             Explore Diverse Learning Paths at Bytespace
           </h2>
 

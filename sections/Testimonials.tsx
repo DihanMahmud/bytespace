@@ -60,7 +60,7 @@ export default function Testimonials() {
 
       <div className="relative mx-auto w-full max-w-[1440px] px-8 pt-20 pb-20 md:px-12 lg:px-20">
         <div className="grid grid-cols-1 items-end gap-8 lg:grid-cols-2">
-          <h2 className="text-[30px] leading-[1.18] font-bold tracking-tight text-[#040819] md:text-[42px]">
+          <h2 className="text-[30px] leading-[1.18] font-semibold tracking-tight text-[#040819] md:text-[42px]">
             Discover What Our
             <br />
             Community Is Saying
@@ -89,7 +89,7 @@ export default function Testimonials() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="mt-5 text-[18px] font-bold text-black">
+              <h3 className="mt-5 text-[18px] font-semibold text-black">
                 {t.name}
               </h3>
               <p className="mt-1 text-[15px] font-normal text-[#003BE2]">
