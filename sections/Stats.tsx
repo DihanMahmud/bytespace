@@ -71,7 +71,7 @@ export default function Stats() {
         {/* ── Part 1: growth ── */}
         <div className="grid grid-cols-1 items-center gap-12 pt-20 pb-10 lg:grid-cols-2">
           <div>
-            <h2 className="text-[30px] leading-[1.2] font-bold tracking-tight text-[#040819] md:text-[42px]">
+            <h2 className="text-[30px] leading-[1.2] font-semibold tracking-tight text-[#040819] md:text-[42px]">
               Your Path to Professional
               <br />
               Growth Starts Here!
@@ -121,7 +121,7 @@ export default function Stats() {
               </div>
               <div className="flex flex-1 flex-col px-2 pt-5 pb-2">
                 <div className="flex items-start justify-between gap-3">
-                  <h3 className="truncate text-[18px] leading-snug font-bold tracking-tight text-gray-950">
+                  <h3 className="truncate text-[18px] leading-snug font-semibold tracking-tight text-gray-950">
                     Learn Figma from Basic
                   </h3>
                   <span className="flex shrink-0 items-center gap-1 pt-0.5 text-[15px] font-medium text-gray-800">
@@ -258,7 +258,7 @@ export default function Stats() {
           </div>
 
           <div>
-            <h2 className="text-[30px] leading-[1.2] font-bold tracking-tight text-[#040819] md:text-[42px]">
+            <h2 className="text-[30px] leading-[1.2] font-semibold tracking-tight text-[#040819] md:text-[42px]">
               Create & Manage
               <br />
               Courses Easily.
